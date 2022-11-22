@@ -4,6 +4,8 @@ from django.http import HttpResponse
 
 # install csv : pip install python-csv
 # https://www.codingem.com/python-write-to-csv-file/
+# https://www.geeksforgeeks.org/writing-csv-files-in-python/
+
 
 def csv(request):
     student_header = ['name', 'age', 'major', 'minor']
